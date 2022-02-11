@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css"/>
+    <title> Terms & condition</title>
+    <style>
+        .titre{
+            text-align:center;
+            font-weight:400;
+            padding:10px 10px;
+            text-transform:capitalize;
+            color:gray;
+        }
+        .i{
+            font-size:18px;
+            font-weight:300;
+
+        }
+        .tache{
+            padding-left:15px;
+            margin:5px;
+            height:auto;
+            font-size:20px;
+            
+            
+        }
+        .tache a{
+            color: blue;
+        }
+        .tache li{
+            padding:5px 5px;
+        }
+        .abt{
+            padding-left:15px;
+            padding-bottom:15px;
+        }
+        .abt span{
+            color:blue;
+        }
+        .abt a{
+            color: red;
+        }
+        .abtbox{
+            
+            
+        }
+        h2{
+            font-style:oblique;
+            padding-bottom:10px;
+            padding-top: 10px;
+        }
+        .pt{
+            padding-left:15px;
+            padding-bottom:15px; 
+        }
+        .pt span{
+            color:blue;
+            font-weight:400;
+        }
+        .pt a{
+            color:red;
+        }
+        h2 span{
+            font-size: 14px;
+        }
+        .sum p{
+            padding-left:50px;
+            padding-bottom:15px;
+            
+            font-weight:700;
+        }
+        .sum span{
+            color:blue;
+            font-weight:700;
+        }
+        .sum a{
+            color:red;
+            font-weight:700;
+        }
+        .sum summary{
+            padding-left:15px;
+            padding-bottom:15px;
+            font-size:18px;
+        }
+        .service .box-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap:1.5rem;
+        }
+
+        .service .box-container .box{
+            flex:1 1 30rem;
+            text-align: center;
+            padding:2rem;
+            background:#fff;
+
+            border-radius: .5rem;
+            box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+        }
+
+        .service .box-container .box i{
+            height:6rem;
+            width:6rem;
+            line-height: 6rem;
+            font-size: 2.5rem;
+            color:#fff;
+
+            background:var(--main-color);
+            border-radius: 50%;
+        }
+
+        .service .box-container .box h3{
+            color:#444;
+
+            font-size: 2.2rem;
+            padding-top: 1rem;
+        }
+
+        .service .box-container .box p{
+            color:#666;
+
+            font-size: 1.7rem;
+            padding-top: .5rem;
+        }
+        summary{
+          font-size:22px;
+          font-weight:400;
+        }
+        .box-container summary span{
+            font-size:16px;
+            color:black;
+        }
+        .box span{
+            color:red;
+        }
+        .box .bleu{
+            color:black;
+        }
+        #centre{
+            text-align:center;
+            color: black;
+            font-weight:700;
+        }
+        .contacte .icons-containere{ /*lili*/
+    display: flex;
+    gap:1.5rem;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    padding:10px 10px;  
+}
+.he{
+    text-align:center;
+    padding:15px 15px;
+    color: var(--green);
+}
+
+.contacte .icons-containere .iconse{
+    flex:1 1 25rem;
+    text-align: center;
+    padding:2rem;
+    background:#fff;
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.contacte .icons-containere .iconse i{
+    height:5rem;
+    width:5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: var(--main-color);
+    color:#fff;
+
+    border-radius: 50%;
+}
+
+.contacte .icons-containere .iconse h3{
+    color:#111;
+
+    font-size: 2rem;
+    padding:.5rem 0;
+    padding-top: 1rem;
+}
+
+.contacte .icons-containere .iconse p{
+    color:#666;
+    
+    font-size: 1.7rem;
+}
+
+.contacte .rowe{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.contacte .rowe form{
+    flex:1 1 55rem;
+    background:#fff;
+
+    padding:0 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.contacte .rowe .map{
+    flex:1 1 25rem;
+    border:1rem solid #fff;
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.contacte .rowe form .box,
+.contacte .rowe form textarea{
+    width: 100%;
+    border-bottom: .1rem solid #333;
+
+    color:#333;
+
+    text-transform: none;
+    font-size: 1.7rem;
+    padding:1rem 0;
+    margin:1rem 0;
+}
+
+.contacte .rowe form .box:focus,
+.contacte .rowe form textarea:focus{
+    border-color: var(--main-color);
+}
+
+.contacte .rowe form .box::placeholder,
+.contacte .rowe form textarea::placeholder{
+    text-transform: capitalize;
+}
+
+.contacte .rowe form textarea{
+    height: 20rem;
+    resize: none;
+}
+
+.contacte .rowe form .btne{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+        
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="top-nav">
+      <div class="container d-flex">
+        <p>Order Online Or Call Us: +1(419) 819-197</p>
+        <ul class="d-flex">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contacte">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1><span class="b">B</span><span class="a">a</span><span class="m">m</span><span class="s">s</span> <span class="sneak">sneaker</span></h1></a>
+
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="Product.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="#terms" class="nav-link">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacte" class="nav-link">Contact</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="Login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="#" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="Login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">0</span>
+          </div>
+          <a href="#" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">0</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+    <!-- header-->
+    <h1 class="titre">We highly recommend you to read this article</h1>
+    <p class="i">Here are some important points about us how we work the services we offer , what are the benefits and advantage of shoppping with us and everything you need to know about Bam's sneakers</p>
+    <div class="tache">
+        <ul>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#terms">Terms</a></li>
+            <li><a href="#faq">FaQ</a></li>
+            <li><a href="#shipping">shipping</a></li>
+            <li><a href="#list">List Of country & University</a></li>
+            <li><a href="#contacte">Contact</a></li>
+            
+        </ul>
+    </div>
+    
+    <!-- a propos-->
+    <section class="abtbox" id="about">
+        <div>
+            <h2>Abous us</h2>
+            <p class="abt"><strong>Bam’s sneaker</strong> is a new marketplace whose main objective is to serve students while
+                promoting very good quality of sneakers at a good price and guaranteeing the quality and safety of its articles.<br>
+                We trade with universities while having our distributor members on site<br>  <a href="#list">check the list of university and country we are in</a>.
+                <br>All advice we provide in the context of our services, shipping, supply list, <br> method of payment and others are informative and you are asked to follow it.  In addition,
+                while we may help facilitate dispute resolution through various programs, bam's sneakers has control over and guarantees: the existence, quality, safety, truthfulness, accuracy of
+                its articles through  its strong <br>system to interact with each of its buyers before the item is shipped
+                <br>Without stress and risk because the payment is made only at the time of the purchase of your article therefore (while or when you are receiving your article in bare hand).<br>
+                Which makes one of our big and inescapable difference.<br>  We currently deliver to three countries which are: <span>USA, JAPAN, UK ,BELGIUM and FRANCE</span>.  Do you want to become one of our
+                member in your country or a university? <br><a href="#contacte">click here</a> to contact us.
+            </p>
+        </div>
+    </section>
+    
+    <!--terms-->
+    <section class="terms" id="terms">
+        <div>
+            <h2>Terms</h2>
+            <p class="pt">Welcome to Bam's sneakers Service and its affiliates ("bam's sneaker") provide you with website functionality and other products and services when you visit or shop at bam's sneakers,
+               use any products or our services. and soon we will launch a mobile App that will be available with all services .
+               <br><span>Some important notice  </span>:  while placing your order, we kindly ask you to use the contact number found on our website  and (not given by someone)， at the top of the page or at the bottom or <a href="#list">check out the list of countries and universities</a>.
+               because we will mention the country and university of each of our members.  the ordering process is as follows: place the order, after 3 to 4 days bam's sneaker will contact you to show you your item by pictures and call video and if you confirm the order, it will be shipped and will reach you within 8 ~13 days depending on the country your in.
+               When you use our services or send e-mails, text messages, and other communications to us from your desktop or mobile device, you may communicate with us electronically.  You consent to receive communications from us electronically, such as emails, text messages, notifications and messages on this site or through other services,
+               such as our message center, and you may retain copies of  these communications for your records.
+            </p>
+        </div>
+    </section>
+    <!-- Faqs-->
+    <section class="faq" id="faq">
+      <div>
+        <h2>FAQS <span>Frenquently asked questions</span></h2>
+        <div class="sum">
+          <details >
+            <summary>Are your sneakers new?</summary>
+            <p>Bams sneakers only sells 100% new and authentic items.<br>
+              Although the items are consigned,<br>
+              they are unworn and in pristine condition.
+            </p>
+          </details>
+          <details>
+            <summary> How do I know if the items are genuine?</summary>
+            <p>All Bams sneakers merchandise is 100% authentic, guaranteed.<br>
+              Our team of expert authenticators puts each item through a verification system<br>
+              or App to ensure its legitimacy.  <br>and Bams sneakers make sure to show you your item in full detail<br> by
+              <span>video call and pictures before it is shipped</span>
+            </p>
+          </details>
+          <details>
+            <summary> Where does my order come from?</summary>
+            <p>Everything that Bams sneaker sells comes from 3 different countries which are<br> <span>China,
+              Dubai and Turkey</span>, we have our members in these countries.<br>
+              So having all the merchandise on hand allows us to verify authenticity<br>
+              and ship items faster.
+            </p>
+          </details>
+          <details>
+            <summary> When will my order be shipped?</summary>
+            <p> Orders can take up to 3 days to process before shipping as Bams sneakers<br>
+            need to contact the customer to show them their item in detail via video and pictures.<br>
+            Additional time may be required during promotional periods and holidays.<br>
+            We ship orders Monday through Saturday, except the whole February.</p>
+          </details>
+          <details>
+            <summary> Do you ship internationally?</summary>
+            <p>Yes!  Bam’s sneakers ships to most countries of the world.<br>
+              For international customers, please <a href="#list">choose the country and university</a> where you are located.<br>
+              If you don't see your country or university listed,<br>
+              unfortunately we don't offer shipping at this time.<br>
+              <span>do you want to become one of our members from your university or country?</span>  <a href="#contacte">
+              <br>Click here</a> to contact us.
+            </p>
+          </details>
+          <details>
+            <summary> What payment methods are accepted?</summary>
+            <p>We offer a variety of payment types, many of which are local to each country.<br>
+              of which we have PayPal and cash for those who will pay<br>
+              directly after picking up their order
+            </p>
+          </details>
+          <details>
+            <summary> Fees and taxes</summary>
+            <p>there are no taxes and shipping charges to pay everything<br>
+              is included in the item price. We ship through <span>DHL</span>.
+            </p>
+          </details>
+          <details>
+            <summary> Can I place an order by phone?</summary>
+            <p>Yes!  it's more convenient , Our friendly customer service team is available<br>
+              Monday-Sunday 9 a.m. to 6 p.m. at <span>+1 (419) 819-1975</span> in the US,<br>
+              and Monday-Friday 9 a.m. to 6 p.m. GMT on <span>+86 17829307780</span>.
+            </p>
+          </details>
+          <details>
+            <summary> How do I contact Bams sneaker?</summary>
+            <p>Our Customer Care team is here for you 7 days a week!<br>
+              Feel free to send us an email at bamsSneakers@gmail.com,<br>
+              or shoot us a note via our whatsApp phone number ,<br>
+              We're  available on Mon-Sun 9am-6pm  at <span>+86 17829307780</span>,<br>
+              or Mon-Fri 9am-6pm GMT at <span>+1 (419) 819-1975</span>.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+    
+    <section class="ship" id="shipping">
+      <div>
+        <h2>shipping</h2>
+        <h3 class="abt">We ship Through Dhl & Ups.</h3>
+      </div>
+    </section>
+    <!-- liste-->
+    <section class="service" id="list">
+
+      <h1 class="he">  List  of Country, Universities<br><span> & Members</span> </h1>
+    
+      <div class="box-container">
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <details>
+               <summary>USA<span>- Florida</span></summary>
+                   <p>University : <span class="bleu">Florida state university campus</span><br>
+                      Address : <span class="bleu"> wenlin 574 state city </span> <br>
+                      Full-name :<span> <strong> kelly browney</strong> </span> <br>
+                      Whatsapp-number: <span> +1-478-589-63 </span><br>
+                      Address-mail : <span class="bleu"> kelly@gmail.com </span><br>
+                      <span id="centre">Bams sneakers*</span>
+                    </p>
+            </details>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <details>
+               <summary>USA<span>- Toledo</span></summary>
+                   <p>University : <span class="bleu">...</span><br>
+                      Address : <span class="bleu"> ... </span> <br>
+                      Full-name :<span> <strong> William Midubo</strong> </span> <br>
+                      Whatsapp-number: <span> +1-419-819-1975 </span><br>
+                      Address-mail : <span class="bleu"> midubowill@gmail.com </span><br>
+                      <span id="centre">Bams sneakers*</span>
+                    </p>
+            </details>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <details>
+               <summary>BELGIQUE<span>- Vilvoorde</span></summary>
+                   <p>University : <span class="bleu">...</span><br>
+                      Address : <span class="bleu"> Flemish Braban</span> <br>
+                      Full-name :<span> <strong> Perla Biahi</strong> </span> <br>
+                      Whatsapp-number : <span> +33 465-355-087 </span><br>
+                      Address-mail : <span class="bleu"> perlakalubi5@gmail.com</span><br>
+                      <span id="centre">Bams sneakers*</span>
+                    </p>
+            </details>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <details>
+               <summary>BELGIQUE<span>- Bruxelle</span></summary>
+                   <p>University : <span class="bleu">...</span><br>
+                      Address : <span class="bleu"> ... </span> <br>
+                      Full-name :<span> <strong> Mathieu Odan</strong> </span> <br>
+                      Whatsapp-number : <span> +33 465-355-087 </span><br>
+                      Address-mail : <span class="bleu"> Odan@gmail.com </span><br>
+                      <span id="centre">Bams sneakers*</span>
+                    </p>
+            </details>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <details>
+               <summary>FRANCE<span>-  Lyon</span></summary>
+                   <p>University : <span class="bleu">Lumiere Lyon 2 campus Berges Rhones</span><br>
+                      Address : <span class="bleu"> 86 road pastor ,69007 lyon </span> <br>
+                      Full-name :<span> <strong> Sacre Mns</strong> </span> <br>
+                      Whatsapp-number : <span> +33 626-764-757 </span><br>
+                      Address-mail : <span class="bleu"> Sacre8@gmail.com </span><br>
+                      <span id="centre">Bams sneakers*</span>
+                    </p>
+            </details>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <details>
+               <summary>FRANCE<span>-  Paris</span></summary>
+                   <p>University : <span class="bleu">...</span><br>
+                      Address : <span class="bleu">... </span> <br>
+                      Full-name :<span> <strong> Yusuff Njie</strong> </span> <br>
+                      Whatsapp-number : <span> +34 632-717-857 </span><br>
+                      Address-mail : <span class="bleu"> Yusuff5@gmail.com </span><br>
+                      <span id="centre">Bams sneakers*</span>
+                    </p>
+            </details>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <details>
+               <summary>CANADA<span>-  Qeubec</span></summary>
+                   <p>University : <span class="bleu"> La Cité collégiale </span><br>
+                      Address : <span class="bleu"> Gatineau city,20 rue des Noisetiers </span> <br>
+                      Full-name :<span> <strong> Innocent Maktavich</strong> </span> <br>
+                      Whatsapp-number : <span> +1 819-712-0438 </span><br>
+                      Address-mail : <span class="bleu"> mklinno17@gmail.com </span><br>
+                      <span id="centre">Bams sneakers*</span>
+                    </p>
+            </details>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-chart-line"></i>
+            <h3>UK</h3>
+            <p>...</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>...</h3>
+            <p>...</p>
+        </div>
+
+      </div>
+
+    </section>
+    <!--contact -->
+    <section class="contacte" id="contacte">
+
+    <h1 class="he"> contact <span> us </span> </h1>
+
+    <div class="icons-containere">
+
+        <div class="iconse">
+            <i class="fas fa-envelope"></i>
+            <h3> Email</h3>
+            <p>bambijoe78@gmail.com</p>
+            <p>BamsSneaker@gmail.com</p>
+        </div>
+
+        <div class="iconse">
+            <i class="fas fa-phone"></i>
+            <h3>Whatsapp-numbers</h3>
+            <p>+86 (178) 2930 7780</p>
+            <p>+1 (419) 819-1975</p>
+        </div>
+
+        <div class="iconse">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>our address</h3>
+            <p>wenlin road,weicheng District, xian city, 712000 china </p>
+        </div>
+
+    </div>
+
+    <div class="rowe">
+
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1625069635379!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+
+
+</section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="#about">About us</a>
+          <a href="#contacte">Contact Us</a>
+          <a href="#terms">Term & Conditions</a>
+          <a href="#shipping">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="index.html">Online Store</a>
+          <a href="#">Customer Services</a>
+          <a href="Product.html">Promotion</a>
+          <a href="product3.html">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class='bx bxl-facebook-square'></i></span>
+          <a href="http://instagram.com/wolthstreet"><span><i class='bx bxl-instagram-alt' ></i></span></a>
+          <span><i class='bx bxl-visa'></i></span>
+          <span><i class='bx bxl-shopify'></i></span>
+         <a href="#"> <span><i class='bx bxs-chat' ></i></span></a>
+        </div>
+      </div>
+      <center>
+          <p class="fin">&copy; Copyright 2021 <strong><a href="https://bj005.github.io/Joe-bambi-CV.com/">Joe bambi</a> </strong>- toute reproduction est strictement interdite-Mention legales.</p>
+      </center>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+  </body>
+</html> 
